@@ -1,3 +1,8 @@
+/*
+Name:-Rachit Deshpande
+PRN:-24070123035
+Batch:-A2
+*/
 #include <iostream>
 using namespace std;
 int main(){
@@ -34,3 +39,26 @@ int main(){
     ptr4++;
     cout << "Value of ptr4 after increment: " << ptr4 << endl;
 }
+/*
+Output:-
+Value of x1: 10
+Address of x1: 0x61fefc
+Value of ptr1: 0x61fefc
+Value pointed to by ptr1: 10
+Value of ptr1 after increment: 0x61fef8
+Value of x2: 20.5
+Address of x2: 0x61fef8
+Value of ptr2: 0x61fef8
+Value pointed to by ptr2: 20.5
+Value of ptr2 after increment: 0x61fef7
+Value of x3: 1
+Address of x3: 0x61fef7
+Value of ptr3: 0x61fef7
+Value pointed to by ptr3: 1
+Value of ptr3 after increment: 0x61fef8
+Value of x4: 30.75
+Address of x4: 0x61fee8
+Value of ptr4: 0x61fee8
+Value pointed to by ptr4: 30.75
+Value of ptr4 after increment: 0x61fef0
+*/
