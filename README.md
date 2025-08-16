@@ -55,16 +55,17 @@ Pointers can be incremented or decremented to traverse memory, especially useful
 
 ---
 
-### ✅ Reverse a String Using Pointers
-1. Input string using `cin.getline()`
-2. Calculate length using `strlen()`
-3. Set pointer to last character
-4. While pointer ≥ start of string:
-   - Print `*ptr`
-   - Decrement pointer
+### ✅ Sum of Two Numbers Using Pointers
+1. Start
+2. Initialize two integer variables a1 and b1 with values 100 and 50.
+3. Declare two integer pointers ptr1 and ptr2.
+4.Assign the address of a1 to ptr1 and the address of b1 to ptr2.
+5.Access the values stored at the addresses of ptr1 and ptr2 using dereferencing (*ptr1 and *ptr2).
+6.Add the dereferenced values and store the result in a variable sum.
+7.Display the result sum on the screen.
+8.Stop.
 
 ---
-
 ### ✅ Pointer Arithmetic Across Data Types
 1. Declare variables of types `int`, `float`, `char`, `bool`
 2. Assign pointers to each
