@@ -1,3 +1,8 @@
+/*
+Name:-Rachit Deshpande
+PRN:-24070123035
+Batch:-A2
+*/
 #include <iostream>
 using namespace std;
 int  main(){
@@ -8,3 +13,7 @@ int  main(){
         ptr++;
     }
 }
+/*
+Output:-
+Hello_world
+*/
