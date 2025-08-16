@@ -55,17 +55,16 @@ Pointers can be incremented or decremented to traverse memory, especially useful
 
 ---
 
-### ✅ Sum of Two Numbers Using Pointers
-1. Start
-2. Initialize two integer variables a1 and b1 with values 100 and 50.
-3. Declare two integer pointers ptr1 and ptr2.
-4.Assign the address of a1 to ptr1 and the address of b1 to ptr2.
-5.Access the values stored at the addresses of ptr1 and ptr2 using dereferencing (*ptr1 and *ptr2).
-6.Add the dereferenced values and store the result in a variable sum.
-7.Display the result sum on the screen.
-8.Stop.
+### ✅ Sum and difference of Two Numbers Using Pointers
+1. Declare two integers `a1 = 100`, `b1 = 50`
+2. Set `ptr1 = &a1`, `ptr2 = &b1`
+3. Calculate `sum = (*ptr1) + (*ptr2)`
+4. Print `sum`
+5. Calculate `diff = (*ptr1) - (*ptr2)`
+6. Print `diff`
 
 ---
+
 ### ✅ Pointer Arithmetic Across Data Types
 1. Declare variables of types `int`, `float`, `char`, `bool`
 2. Assign pointers to each
@@ -74,12 +73,15 @@ Pointers can be incremented or decremented to traverse memory, especially useful
 
 ---
 
-### ✅ Value Difference vs Pointer Distance
-1. Declare array `arr[] = {10, 20, 30, 40, 50}`
-2. Set `ptr1 = &arr[4]`, `ptr2 = &arr[1]`
-3. Calculate `*ptr1 - *ptr2` → value difference
-4. Calculate `ptr1 - ptr2` → index difference
-5. Print both
+### ✅ Print String Characters Using Pointer
+
+1. Declare a string `str = "Hello_world"`
+2. Set `ptr = &str[0]` (pointer to the first character)
+3. Loop from `i = 0` to `i < str.length()`
+   - Print `*ptr`
+   - Increment `ptr` to move to the next character
+4. End loop
+
 
 ---
 
